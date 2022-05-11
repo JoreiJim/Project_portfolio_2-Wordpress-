@@ -5,6 +5,7 @@
 }
 
 .wrapper{
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -118,7 +119,7 @@ h2.title{
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header{
+.waiting .waiting_header, .finish .finish_header{
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -127,7 +128,11 @@ h2.title{
     text-align: center;
 }
 
-.waiting .waiting_divider{
+.finish .finish_header{
+    color:#efefef;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
     margin: 0 auto;
     margin-top: 18px;
     width: 217px;
@@ -144,14 +149,14 @@ h2.title{
     text-align: center;
 }
 
-.waiting .waiting_wrapper{
-    margin-top: 45px;
+.waiting .waiting_wrapper{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 45px;   
 }
 
 .waiting .waiting_wrapper .waiting_item{
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
     width: 339px;
     text-align: center;
 }
@@ -167,4 +172,81 @@ h2.title{
     font-size: 15px;
     font-weight: 300;
     
+}
+
+.optimization{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+    
+}
+
+.optimization .optimization_header{
+    margin-left: 391px;
+    color: #299abd;
+    font-family: "Roboto - Black";
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text{
+    margin-left: 391px;
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+}
+
+.optimization .optimization_text span{
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.optimization .optimization_img{
+    position: absolute;
+    top:-54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/second_bg.png') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_items{
+    max-width: 196px;
+   
+}
+
+.finish .finish_wrapper .finish_items .finish_round{
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0 auto;
+    
+}
+
+.finish .finish_wrapper .finish_items .finish_descr{
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
 }
