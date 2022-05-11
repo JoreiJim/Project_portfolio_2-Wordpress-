@@ -79,7 +79,7 @@ h2.title{
     font-weight: 700;
 }
 
-.promo .promo_btn{
+.promo .promo_btn, .prize .button_prize{
     display: block;
     margin: 73px auto;
     width: 313px;
@@ -250,3 +250,146 @@ h2.title{
     font-weight: 300;
     line-height: 20px;
 }
+
+.prize{
+    padding: 88px 0 88px 0;
+    background: #EFEFEF;
+    min-height: 631px;
+}
+
+.prize .logo_prize .prize_img{
+    display: block;
+    margin: auto;    
+}
+
+.prize .logo_prize .prize_text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+    color: #252525;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;  
+}
+
+.webinar {
+    padding: 89px 0 53px 0;
+    min-height: 514px;
+}
+
+.webinar .webinar_img {
+    display: block;
+    margin: auto;
+}
+
+.webinar .webinar_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+    margin-top: 36px;
+}
+
+.webinar .webinar_time{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-top: 36px;
+}
+
+.webinar .webinar_text{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;   
+    color: #4A4A4A;
+    margin-top: 25px;
+}
+
+.contact-us{
+    background: #1A1A1A;
+    padding: 57px 0 69px 0;
+    min-height: 169px;
+}
+
+.contact-us .contact-us_link .contact-us_line{
+}
+
+.contact-us .contact-us_link {
+    display: flex;  
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+align-items: center;
+justify-content: center;
+text-decoration-line: underline;
+
+color: #888888;   
+}
+
+.contact-us .contact-us_link .link_support{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #888888;
+    margin-right: 5px;
+}
+
+.contact-us .contact-us_link .contact-us_line{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #888888;
+}
+
+.contact-us .contact-us_link .link_police{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #888888;
+    margin-left: 5px;
+}
+
+.contact-us .contact-us_phone{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #888888;
+}
+
