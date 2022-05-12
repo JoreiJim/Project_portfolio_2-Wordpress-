@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 .wrapper{
     position: relative;
     width: 1140px;
@@ -18,7 +22,6 @@
 
 .logo .logo_text{
     color: #ffffff;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
     line-height: 24px;
@@ -43,9 +46,8 @@ h2.title{
 
 .title{
     color: #F9BF3B;
-    font-family: "Roboto - Black";
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
@@ -53,9 +55,8 @@ h2.title{
 
 .simple .title_big{
     color:#ffffff;
-    font-family: "Roboto - Black";
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
@@ -65,17 +66,14 @@ h2.title{
     padding: 0 15px;
     margin-top: 23px;
     color:#ffffff;
-    font-family: Roboto;
     font-size: 21px;
     font-weight: 300;
     line-height: 28px;
-    font-family: "Roboto Light";
     text-align: center;
 }
 
 .promo .promo_text span{
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -89,7 +87,6 @@ h2.title{
     background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
     text-shadow: -1px -1px 0 rgba(0,0,0, 0.22);
     color: #ffffff;
-    font-family: "Roboto Condensed";
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
@@ -100,9 +97,8 @@ h2.title{
 
 .more .more_text{
     color: #ffffff;
-    font-family: "Roboto - Thin";
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
     text-transform: uppercase;
     text-align: center;
 }
@@ -121,7 +117,6 @@ h2.title{
 
 .waiting .waiting_header, .finish .finish_header{
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -142,7 +137,6 @@ h2.title{
 
 .waiting .waiting_subheader{
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     margin-top: 18px;
@@ -168,7 +162,6 @@ h2.title{
 .waiting .waiting_wrapper .waiting_item .waiting_descr{
     margin-top: 33px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     
@@ -183,9 +176,8 @@ h2.title{
 .optimization .optimization_header{
     margin-left: 391px;
     color: #299abd;
-    font-family: "Roboto - Black";
     font-size: 29px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -196,12 +188,10 @@ h2.title{
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
-    font-family: "Roboto Light";
     font-weight: 300;
 }
 
 .optimization .optimization_text span{
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -245,7 +235,6 @@ h2.title{
     margin-top: 25px;
     text-align: center;
     color: #efefef;
-    font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
@@ -268,7 +257,6 @@ h2.title{
     text-align: center;
     margin-top: 45px;
     color: #252525;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;
     line-height: 43px;  
@@ -285,7 +273,6 @@ h2.title{
 }
 
 .webinar .webinar_header {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -297,7 +284,6 @@ h2.title{
 }
 
 .webinar .webinar_time{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -313,7 +299,6 @@ h2.title{
     align-items:center;
     text-align: center;
     justify-content: center;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;   
@@ -327,24 +312,18 @@ h2.title{
     min-height: 169px;
 }
 
-.contact-us .contact-us_link .contact-us_line{
-}
-
 .contact-us .contact-us_link {
     display: flex;  
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-align-items: center;
-justify-content: center;
-text-decoration-line: underline;
-
-color: #888888;   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #888888;   
 }
 
 .contact-us .contact-us_link .link_support{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -357,7 +336,6 @@ color: #888888;
 }
 
 .contact-us .contact-us_link .contact-us_line{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -369,7 +347,6 @@ color: #888888;
 }
 
 .contact-us .contact-us_link .link_police{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -382,7 +359,6 @@ color: #888888;
 }
 
 .contact-us .contact-us_phone{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
